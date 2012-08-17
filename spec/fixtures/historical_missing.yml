@@ -1,0 +1,40 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://openexchangerates.org/api/historical/00000.json?app_id=bcc1d1ad9f4d4dd69b12a64c913857fe
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 404
+      message: Not Found
+    headers: 
+      Date: 
+      - Fri, 17 Aug 2012 01:01:45 GMT
+      Server: 
+      - Apache/2
+      X-Powered-By: 
+      - PHP/5.3.10
+      Access-Control-Allow-Origin: 
+      - "*"
+      Connection: 
+      - close
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json; charset=utf-8
+    body: 
+      encoding: US-ASCII
+      string: "{\"error\":true,\"status\":404,\"message\":\"not_found\",\"description\":\"No route specified, or route not matched. Please check and try again, or contact support@openexchangerates.org.\"}"
+    http_version: 
+  recorded_at: Fri, 17 Aug 2012 01:01:45 GMT
+recorded_with: VCR 2.2.4

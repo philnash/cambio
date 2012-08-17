@@ -1,0 +1,198 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://openexchangerates.org/api/currencies.json?app_id=bcc1d1ad9f4d4dd69b12a64c913857fe
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Fri, 17 Aug 2012 01:01:45 GMT
+      Server: 
+      - Apache/2
+      X-Powered-By: 
+      - PHP/5.3.10
+      Access-Control-Allow-Origin: 
+      - "*"
+      Connection: 
+      - close
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json; charset=utf-8
+    body: 
+      encoding: ASCII-8BIT
+      string: "{\n\
+        \t\"AED\": \"United Arab Emirates Dirham\",\n\
+        \t\"AFN\": \"Afghan Afghani\",\n\
+        \t\"ALL\": \"Albanian Lek\",\n\
+        \t\"AMD\": \"Armenian Dram\",\n\
+        \t\"ANG\": \"Netherlands Antillean Guilder\",\n\
+        \t\"AOA\": \"Angolan Kwanza\",\n\
+        \t\"ARS\": \"Argentine Peso\",\n\
+        \t\"AUD\": \"Australian Dollar\",\n\
+        \t\"AWG\": \"Aruban Florin\",\n\
+        \t\"AZN\": \"Azerbaijani Manat\",\n\
+        \t\"BAM\": \"Bosnia-Herzegovina Convertible Mark\",\n\
+        \t\"BBD\": \"Barbadian Dollar\",\n\
+        \t\"BDT\": \"Bangladeshi Taka\",\n\
+        \t\"BGN\": \"Bulgarian Lev\",\n\
+        \t\"BHD\": \"Bahraini Dinar\",\n\
+        \t\"BIF\": \"Burundian Franc\",\n\
+        \t\"BMD\": \"Bermudan Dollar\",\n\
+        \t\"BND\": \"Brunei Dollar\",\n\
+        \t\"BOB\": \"Bolivian Boliviano\",\n\
+        \t\"BRL\": \"Brazilian Real\",\n\
+        \t\"BSD\": \"Bahamian Dollar\",\n\
+        \t\"BTN\": \"Bhutanese Ngultrum\",\n\
+        \t\"BWP\": \"Botswanan Pula\",\n\
+        \t\"BYR\": \"Belarusian Ruble\",\n\
+        \t\"BZD\": \"Belize Dollar\",\n\
+        \t\"CAD\": \"Canadian Dollar\",\n\
+        \t\"CDF\": \"Congolese Franc\",\n\
+        \t\"CHF\": \"Swiss Franc\",\n\
+        \t\"CLF\": \"Chilean Unit of Account (UF)\",\n\
+        \t\"CLP\": \"Chilean Peso\",\n\
+        \t\"CNY\": \"Chinese Yuan\",\n\
+        \t\"COP\": \"Colombian Peso\",\n\
+        \t\"CRC\": \"Costa Rican Col\xC3\xB3n\",\n\
+        \t\"CUP\": \"Cuban Peso\",\n\
+        \t\"CVE\": \"Cape Verdean Escudo\",\n\
+        \t\"CZK\": \"Czech Republic Koruna\",\n\
+        \t\"DJF\": \"Djiboutian Franc\",\n\
+        \t\"DKK\": \"Danish Krone\",\n\
+        \t\"DOP\": \"Dominican Peso\",\n\
+        \t\"DZD\": \"Algerian Dinar\",\n\
+        \t\"EGP\": \"Egyptian Pound\",\n\
+        \t\"ETB\": \"Ethiopian Birr\",\n\
+        \t\"EUR\": \"Euro\",\n\
+        \t\"FJD\": \"Fijian Dollar\",\n\
+        \t\"FKP\": \"Falkland Islands Pound\",\n\
+        \t\"GBP\": \"British Pound Sterling\",\n\
+        \t\"GEL\": \"Georgian Lari\",\n\
+        \t\"GHS\": \"Ghanaian Cedi\",\n\
+        \t\"GIP\": \"Gibraltar Pound\",\n\
+        \t\"GMD\": \"Gambian Dalasi\",\n\
+        \t\"GNF\": \"Guinean Franc\",\n\
+        \t\"GTQ\": \"Guatemalan Quetzal\",\n\
+        \t\"GYD\": \"Guyanaese Dollar\",\n\
+        \t\"HKD\": \"Hong Kong Dollar\",\n\
+        \t\"HNL\": \"Honduran Lempira\",\n\
+        \t\"HRK\": \"Croatian Kuna\",\n\
+        \t\"HTG\": \"Haitian Gourde\",\n\
+        \t\"HUF\": \"Hungarian Forint\",\n\
+        \t\"IDR\": \"Indonesian Rupiah\",\n\
+        \t\"ILS\": \"Israeli New Sheqel\",\n\
+        \t\"INR\": \"Indian Rupee\",\n\
+        \t\"IQD\": \"Iraqi Dinar\",\n\
+        \t\"IRR\": \"Iranian Rial\",\n\
+        \t\"ISK\": \"Icelandic Kr\xC3\xB3na\",\n\
+        \t\"JMD\": \"Jamaican Dollar\",\n\
+        \t\"JOD\": \"Jordanian Dinar\",\n\
+        \t\"JPY\": \"Japanese Yen\",\n\
+        \t\"KES\": \"Kenyan Shilling\",\n\
+        \t\"KGS\": \"Kyrgystani Som\",\n\
+        \t\"KHR\": \"Cambodian Riel\",\n\
+        \t\"KMF\": \"Comorian Franc\",\n\
+        \t\"KPW\": \"North Korean Won\",\n\
+        \t\"KRW\": \"South Korean Won\",\n\
+        \t\"KWD\": \"Kuwaiti Dinar\",\n\
+        \t\"KZT\": \"Kazakhstani Tenge\",\n\
+        \t\"LAK\": \"Laotian Kip\",\n\
+        \t\"LBP\": \"Lebanese Pound\",\n\
+        \t\"LKR\": \"Sri Lankan Rupee\",\n\
+        \t\"LRD\": \"Liberian Dollar\",\n\
+        \t\"LSL\": \"Lesotho Loti\",\n\
+        \t\"LTL\": \"Lithuanian Litas\",\n\
+        \t\"LVL\": \"Latvian Lats\",\n\
+        \t\"LYD\": \"Libyan Dinar\",\n\
+        \t\"MAD\": \"Moroccan Dirham\",\n\
+        \t\"MDL\": \"Moldovan Leu\",\n\
+        \t\"MGA\": \"Malagasy Ariary\",\n\
+        \t\"MKD\": \"Macedonian Denar\",\n\
+        \t\"MMK\": \"Myanma Kyat\",\n\
+        \t\"MNT\": \"Mongolian Tugrik\",\n\
+        \t\"MOP\": \"Macanese Pataca\",\n\
+        \t\"MRO\": \"Mauritanian Ouguiya\",\n\
+        \t\"MUR\": \"Mauritian Rupee\",\n\
+        \t\"MVR\": \"Maldivian Rufiyaa\",\n\
+        \t\"MWK\": \"Malawian Kwacha\",\n\
+        \t\"MXN\": \"Mexican Peso\",\n\
+        \t\"MYR\": \"Malaysian Ringgit\",\n\
+        \t\"MZN\": \"Mozambican Metical\",\n\
+        \t\"NAD\": \"Namibian Dollar\",\n\
+        \t\"NGN\": \"Nigerian Naira\",\n\
+        \t\"NIO\": \"Nicaraguan C\xC3\xB3rdoba\",\n\
+        \t\"NOK\": \"Norwegian Krone\",\n\
+        \t\"NPR\": \"Nepalese Rupee\",\n\
+        \t\"NZD\": \"New Zealand Dollar\",\n\
+        \t\"OMR\": \"Omani Rial\",\n\
+        \t\"PAB\": \"Panamanian Balboa\",\n\
+        \t\"PEN\": \"Peruvian Nuevo Sol\",\n\
+        \t\"PGK\": \"Papua New Guinean Kina\",\n\
+        \t\"PHP\": \"Philippine Peso\",\n\
+        \t\"PKR\": \"Pakistani Rupee\",\n\
+        \t\"PLN\": \"Polish Zloty\",\n\
+        \t\"PYG\": \"Paraguayan Guarani\",\n\
+        \t\"QAR\": \"Qatari Rial\",\n\
+        \t\"RON\": \"Romanian Leu\",\n\
+        \t\"RSD\": \"Serbian Dinar\",\n\
+        \t\"RUB\": \"Russian Ruble\",\n\
+        \t\"RWF\": \"Rwandan Franc\",\n\
+        \t\"SAR\": \"Saudi Riyal\",\n\
+        \t\"SBD\": \"Solomon Islands Dollar\",\n\
+        \t\"SCR\": \"Seychellois Rupee\",\n\
+        \t\"SDG\": \"Sudanese Pound\",\n\
+        \t\"SEK\": \"Swedish Krona\",\n\
+        \t\"SGD\": \"Singapore Dollar\",\n\
+        \t\"SHP\": \"Saint Helena Pound\",\n\
+        \t\"SLL\": \"Sierra Leonean Leone\",\n\
+        \t\"SOS\": \"Somali Shilling\",\n\
+        \t\"SRD\": \"Surinamese Dollar\",\n\
+        \t\"STD\": \"S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe Dobra\",\n\
+        \t\"SVC\": \"Salvadoran Col\xC3\xB3n\",\n\
+        \t\"SYP\": \"Syrian Pound\",\n\
+        \t\"SZL\": \"Swazi Lilangeni\",\n\
+        \t\"THB\": \"Thai Baht\",\n\
+        \t\"TJS\": \"Tajikistani Somoni\",\n\
+        \t\"TMT\": \"Turkmenistani Manat\",\n\
+        \t\"TND\": \"Tunisian Dinar\",\n\
+        \t\"TOP\": \"Tongan Pa\xCA\xBBanga\",\n\
+        \t\"TRY\": \"Turkish Lira\",\n\
+        \t\"TTD\": \"Trinidad and Tobago Dollar\",\n\
+        \t\"TWD\": \"New Taiwan Dollar\",\n\
+        \t\"TZS\": \"Tanzanian Shilling\",\n\
+        \t\"UAH\": \"Ukrainian Hryvnia\",\n\
+        \t\"UGX\": \"Ugandan Shilling\",\n\
+        \t\"USD\": \"United States Dollar\",\n\
+        \t\"UYU\": \"Uruguayan Peso\",\n\
+        \t\"UZS\": \"Uzbekistan Som\",\n\
+        \t\"VEF\": \"Venezuelan Bol\xC3\xADvar\",\n\
+        \t\"VND\": \"Vietnamese Dong\",\n\
+        \t\"VUV\": \"Vanuatu Vatu\",\n\
+        \t\"WST\": \"Samoan Tala\",\n\
+        \t\"XAF\": \"CFA Franc BEAC\",\n\
+        \t\"XCD\": \"East Caribbean Dollar\",\n\
+        \t\"XDR\": \"Special Drawing Rights\",\n\
+        \t\"XOF\": \"CFA Franc BCEAO\",\n\
+        \t\"XPF\": \"CFP Franc\",\n\
+        \t\"YER\": \"Yemeni Rial\",\n\
+        \t\"ZAR\": \"South African Rand\",\n\
+        \t\"ZMK\": \"Zambian Kwacha\",\n\
+        \t\"ZWL\": \"Zimbabwean Dollar\"\n\
+        }"
+    http_version: 
+  recorded_at: Fri, 17 Aug 2012 01:01:46 GMT
+recorded_with: VCR 2.2.4

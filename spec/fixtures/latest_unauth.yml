@@ -1,0 +1,40 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://openexchangerates.org/api/latest.json?app_id=wrong
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 401
+      message: Unauthorized
+    headers: 
+      Date: 
+      - Fri, 17 Aug 2012 01:01:46 GMT
+      Server: 
+      - Apache/2
+      X-Powered-By: 
+      - PHP/5.3.10
+      Access-Control-Allow-Origin: 
+      - "*"
+      Connection: 
+      - close
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json; charset=utf-8
+    body: 
+      encoding: US-ASCII
+      string: "{\"error\":true,\"status\":401,\"message\":\"invalid_app_id\",\"description\":\"Invalid App ID - please sign up at https://openexchangerates.org/signup, or contact support@openexchangerates.org.\"}"
+    http_version: 
+  recorded_at: Fri, 17 Aug 2012 01:01:46 GMT
+recorded_with: VCR 2.2.4
