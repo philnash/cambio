@@ -21,7 +21,7 @@ Or install it yourself as:
 First you will need an App ID, you can sign up for one at https://openexchangerates.org/signup.
 
     Cambio.configure do |config|
-      config.app_id
+      config.app_id = 'YOUR APP ID'
     end
 
 Get the latest exchange rates
